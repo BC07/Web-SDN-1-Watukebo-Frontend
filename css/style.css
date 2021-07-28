@@ -5,3 +5,167 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navigation Bar */
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    width: 70px;
+    margin-left: 80px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a h4{
+    color: #000;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+nav a h6 {
+    color: #000;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 25px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+}
+
+nav ul li {
+    background: #1fab89;
+    border: 4px solid #8cd3c4;
+    margin-left: 15px;
+    border-radius: 14px;
+    padding: 3px 7.5px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.icon{
+    color: #1fab89;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.cencel-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.icon.menu-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 0;
+}
+
+.icon.menu-btn.active{
+    display: none;
+}
+
+@media screen and (max-width:1024px) {
+    nav ul {
+        margin-left: 10%;
+    }
+}
+
+/* Tablet and Mobile Version */
+@media screen and (max-width:868px) {
+
+    /* Responsive Navigation Bar */
+    .navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 500px;
+        background: #222;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .navbar .menu-list.active {
+        left: 0%;
+    }
+
+    nav ul {
+        margin-left: 0;
+    }
+
+    nav ul li{
+        margin-left: 0;
+        display: block;
+        margin: 45px 150px;
+        border-radius: 14px;
+    }
+
+    .icon{
+        display: block;
+    }
+
+    nav img {
+        width: 50px;
+        margin-left: 20px;
+    }
+    
+    nav a h4{
+        color: #222;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 20px;
+        margin-left: 13px;
+    }
+    
+    nav a h6 {
+        color: #222;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 20px;
+        margin-left: 13px;
+    }
+
+    /*  */
+}
+
+/* Mobile Version */
+@media screen and (max-width:768px) {
+
+}
