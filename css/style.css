@@ -6,11 +6,11 @@
     box-sizing: inherit;
 }
 
-/* Navbar */
-
 html{
     font-family: 'Poppins', sans-serif;
 }
+
+/* Navigation Bar */
 
 nav{
     position: absolute;
@@ -55,15 +55,6 @@ nav ul {
     align-items: center;
     margin-left: 30%;
 }
-
-/* header ul li {
-    list-style: none;
-    margin-left: 10px;
-    padding: 6px 15px;
-    color: #000;
-    border-radius: 10px;
-    background: #1FAB89;
-} */
 
 nav ul li {
     background: #1fab89;
@@ -111,8 +102,10 @@ nav ul li a{
     }
 }
 
-/* Tablet Version */
+/* Tablet and Mobile Version */
 @media screen and (max-width:868px) {
+
+    /* Responsive Navigation Bar */
     .navbar .menu-list {
         position: fixed;
         top: 0;
@@ -168,6 +161,8 @@ nav ul li a{
         line-height: 20px;
         margin-left: 13px;
     }
+
+    /*  */
 }
 
 /* Mobile Version */
