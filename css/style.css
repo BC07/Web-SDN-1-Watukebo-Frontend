@@ -17,7 +17,7 @@ nav{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0px 10px 0px;
+    padding: 20px 0px 10px 0px;
     display: flex;
     align-items: center;
     transition: all 0.3s ease;
@@ -52,6 +52,7 @@ nav a h6 {
 }
 
 nav ul {
+    margin-top: -15px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -98,6 +99,20 @@ nav ul li a{
 
 .icon.menu-btn.active{
     display: none;
+}
+
+.header-img img{
+    display: block;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.header-img h1{
+    margin-top: 50px;
+    text-align: center;
 }
 
 @media screen and (max-width:1024px) {
