@@ -161,6 +161,7 @@ nav ul li a{
 
     .icon{
         display: block;
+        margin-top: 15px;
     }
 
     nav img {
@@ -187,6 +188,18 @@ nav ul li a{
     }
 
     /*  */
+
+    /* Body */
+    .header-img img{
+        margin-top: 120px;
+        width: 80%;
+    }
+
+    .header-img h1 {
+        font-size: 24px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 }
 
 /* Mobile Version */
