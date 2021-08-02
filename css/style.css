@@ -5,3 +5,267 @@
     padding: 0;
     box-sizing: inherit;
 }
+
+body{
+    font-family: 'Poppins', sans-serif!important;
+}
+
+
+._navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    transition: all 0.3s ease;
+    background: #fff;
+}
+
+._navbar img {
+    width: 70px;
+    margin-left: 50px;
+}
+
+._navbar a {
+    text-decoration: none;
+}
+
+._navbar a h4{
+    color: #222;
+    font-size: 23px;
+    font-weight: 700;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 15px;
+}
+
+._navbar a h6 {
+    color: #222;
+    font-size: 17px;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 25px;
+    margin-left: 15px;
+}
+
+._navbar ul {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 30%; */
+    position: absolute;
+    right: 3%;
+}
+
+._navbar ul li {
+    background: #1fab89;
+    border: 4px solid #8cd3c4;
+    margin-left: 15px;
+    border-radius: 14px;
+    padding: 3px 7.5px;
+    display: inline-block;
+    text-align: center;
+}
+
+._navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+
+.icon{
+    color: #1fab89;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+
+.icon.cencel-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+.icon.menu-btn{
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    z-index: 0;
+}
+
+.icon.menu-btn.active{
+    display: none;
+}
+
+.header-img img{
+    display: block;
+    width: 65%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+}
+
+.header-img h1{
+    margin-top: 50px;
+    text-align: center;
+}
+
+@media screen and (max-width:1024px) {
+    ._navbar ul {
+        margin-left: 10%;
+    }
+}
+
+/* Tablet and Mobile Version */
+@media screen and (max-width:868px) {
+
+    /* Responsive Navigation Bar */
+
+    body.disabledScroll{
+        overflow: hidden;
+    }
+
+    ._navbar .menu-list {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        max-width: 500px;
+        background: #222;
+        display: block;
+        padding: 40px 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    ._navbar .menu-list.active {
+        left: 0%;
+    }
+
+    ._navbar ul {
+        margin-left: 0;
+    }
+
+    ._navbar ul li{
+        margin-left: 0;
+        display: block;
+        margin: 45px 150px;
+        border-radius: 14px;
+    }
+
+    .icon{
+        display: block;
+        margin-top: 15px;
+    }
+
+    ._navbar img {
+        width: 50px;
+        margin-left: 20px;
+    }
+    
+    ._navbar a h4{
+        color: #222;
+        font-size: 18px;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 20px;
+        margin-left: 13px;
+    }
+    
+    ._navbar a h6 {
+        color: #222;
+        font-size: 12px;
+        font-weight: 500;
+        font-style: normal;
+        line-height: 20px;
+        margin-left: 13px;
+    }
+
+    /*  */
+
+    /* Body */
+    .header-img img{
+        margin-top: 120px;
+        width: 80%;
+    }
+
+    .header-img h1 {
+        font-size: 24px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/* PROGRAM */
+
+.programbox{
+    margin-top: 9%;
+}
+.programbox h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold!important;
+}
+.nav-tabs{
+    justify-content: center!important;
+    border-bottom: none!important;
+}
+
+.nav-link{
+    border-radius: 15px 15px 0px 0px!important;
+    font-weight: bold!important;
+    padding: 0.5rem 2rem!important;
+    color: grey!important;
+}
+
+.active{
+    color: #222!important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: none!important;
+    background-color: #f2f2f2!important;
+}
+.nav-tabs .nav-link {
+    border: none!important;
+}
+
+.tab-content{
+    border-radius: 17px!important;
+    padding: 3% 5%!important;
+}
+
+.tab-content li{
+    margin: 15px 15px;
+}
+
+hr{
+    border-top: 2px solid #222!important;
+    margin-top: 5%!important;
+}
+
+/* Mobile Version */
+@media screen and (max-width:768px) {
+
+.programbox{
+    margin-top: 15%;
+}
+.programbox h1{
+    text-align: left;
+}
+
+.nav-tabs{
+    justify-content: left!important;
+}
+
+.tab-content{
+    border-radius: 0px 0px 17px 17px!important;
+}
+
+
+}
