@@ -221,7 +221,73 @@ html{
     }
 }
 
+
+
+/* PROGRAM */
+
+.programbox{
+    margin-top: 9%;
+}
+.programbox h1{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold!important;
+}
+.nav-tabs{
+    justify-content: center!important;
+    border-bottom: none!important;
+}
+
+.nav-link{
+    border-radius: 15px 15px 0px 0px!important;
+    font-weight: bold!important;
+    padding: 0.5rem 2rem!important;
+    color: grey!important;
+}
+
+.active{
+    color: #222!important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    border-color: none!important;
+    background-color: #f2f2f2!important;
+}
+.nav-tabs .nav-link {
+    border: none!important;
+}
+
+.tab-content{
+    border-radius: 17px!important;
+    padding: 3% 5%!important;
+}
+
+.tab-content li{
+    margin: 15px 15px;
+}
+
+hr{
+    border-top: 2px solid #222!important;
+    margin-top: 5%!important;
+}
+
 /* Mobile Version */
 @media screen and (max-width:768px) {
+
+.programbox{
+    margin-top: 15%;
+}
+.programbox h1{
+    text-align: left;
+}
+
+.nav-tabs{
+    justify-content: left!important;
+}
+
+.tab-content{
+    border-radius: 0px 0px 17px 17px!important;
+}
+
 
 }
