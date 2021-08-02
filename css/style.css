@@ -1,18 +1,18 @@
 *,
 *::before,
-*::after{
+*::after {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
 }
 
-html{
+html {
     font-family: 'Poppins', sans-serif;
 }
 
 /* Navigation Bar */
 
-._navbar{
+._navbar {
     position: fixed;
     top: 0;
     left: 0;
@@ -22,6 +22,7 @@ html{
     align-items: center;
     transition: all 0.3s ease;
     background: #fff;
+    z-index: 1;
 }
 
 ._navbar img {
@@ -33,7 +34,7 @@ html{
     text-decoration: none;
 }
 
-._navbar a h4{
+._navbar a h4 {
     color: #222;
     font-size: 23px;
     font-weight: 700;
@@ -71,53 +72,53 @@ html{
     text-align: center;
 }
 
-._navbar ul li a{
+._navbar ul li a {
     text-decoration: none;
     color: #fff;
     font-size: 14px;
 }
 
-.icon{
+.icon {
     color: #1fab89;
     font-size: 20px;
     cursor: pointer;
     display: none;
 }
 
-.icon.cencel-btn{
+.icon.cencel-btn {
     position: absolute;
     right: 30px;
     top: 20px;
 }
 
-.icon.menu-btn{
+.icon.menu-btn {
     position: absolute;
     right: 30px;
     top: 20px;
     z-index: 0;
 }
 
-.icon.menu-btn.active{
+.icon.menu-btn.active {
     display: none;
 }
 
-.header-img img{
+.header-img img {
     display: block;
     width: 65%;
     height: auto;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     margin-top: 180px;
 }
 
-.header-img h1{
+.header-img h1 {
     margin-top: 50px;
     text-align: center;
 }
 
 /* Home */
 
-.bg-home-image{
+.bg-home-image {
     background: url('../img/OnPaste.20210801-192550.png');
     background-size: cover;
     position: relative;
@@ -127,7 +128,7 @@ html{
     width: 100%;
 }
 
-.img-home{
+.img-home {
     width: 50%;
     position: relative;
     left: 50%;
@@ -145,7 +146,7 @@ html{
 
     /* Responsive Navigation Bar */
 
-    body.disabledScroll{
+    body.disabledScroll {
         overflow: hidden;
     }
 
@@ -171,14 +172,14 @@ html{
         margin-left: 0;
     }
 
-    ._navbar ul li{
+    ._navbar ul li {
         margin-left: 0;
         display: block;
         margin: 45px 150px;
         border-radius: 14px;
     }
 
-    .icon{
+    .icon {
         display: block;
         margin-top: 15px;
     }
@@ -187,8 +188,8 @@ html{
         width: 50px;
         margin-left: 20px;
     }
-    
-    ._navbar a h4{
+
+    ._navbar a h4 {
         color: #222;
         font-size: 18px;
         font-weight: 700;
@@ -196,7 +197,7 @@ html{
         line-height: 20px;
         margin-left: 13px;
     }
-    
+
     ._navbar a h6 {
         color: #222;
         font-size: 12px;
@@ -209,7 +210,7 @@ html{
     /*  */
 
     /* Body */
-    .header-img img{
+    .header-img img {
         margin-top: 120px;
         width: 80%;
     }
@@ -225,69 +226,141 @@ html{
 
 /* PROGRAM */
 
-.programbox{
+.programbox {
     margin-top: 9%;
 }
-.programbox h1{
+
+.programbox h1 {
     font-size: 2rem;
     text-align: center;
-    font-weight: bold!important;
-}
-.nav-tabs{
-    justify-content: center!important;
-    border-bottom: none!important;
+    font-weight: bold !important;
 }
 
-.nav-link{
-    border-radius: 15px 15px 0px 0px!important;
-    font-weight: bold!important;
-    padding: 0.5rem 2rem!important;
-    color: grey!important;
+.nav-tabs {
+    justify-content: center !important;
+    border-bottom: none !important;
 }
 
-.active{
-    color: #222!important;
+.nav-link {
+    border-radius: 15px 15px 0px 0px !important;
+    font-weight: bold !important;
+    padding: 0.5rem 2rem !important;
+    color: grey !important;
 }
 
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    border-color: none!important;
-    background-color: #f2f2f2!important;
+.active {
+    color: #222 !important;
 }
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: none !important;
+    background-color: #f2f2f2 !important;
+}
+
 .nav-tabs .nav-link {
-    border: none!important;
+    border: none !important;
 }
 
-.tab-content{
-    border-radius: 17px!important;
-    padding: 3% 5%!important;
+.tab-content {
+    border-radius: 17px !important;
+    padding: 3% 5% !important;
 }
 
-.tab-content li{
+.tab-content li {
     margin: 15px 15px;
 }
 
-hr{
-    border-top: 2px solid #222!important;
-    margin-top: 5%!important;
+hr {
+    border-top: 2px solid #222 !important;
+    margin-top: 5% !important;
 }
 
 /* Mobile Version */
 @media screen and (max-width:768px) {
 
-.programbox{
-    margin-top: 15%;
-}
-.programbox h1{
-    text-align: left;
+    .programbox {
+        margin-top: 15%;
+    }
+
+    .programbox h1 {
+        text-align: left;
+    }
+
+    .nav-tabs {
+        justify-content: left !important;
+    }
+
+    .tab-content {
+        border-radius: 0px 0px 17px 17px !important;
+    }
+
+
 }
 
-.nav-tabs{
-    justify-content: left!important;
+
+
+
+
+/* --------- INFORMASI ---------*/
+#informasi {
+    width: 100%;
+    height: 350vh;
+    background-color: #EAFFFB;
 }
 
-.tab-content{
-    border-radius: 0px 0px 17px 17px!important;
+.container-baner {
+    width: 100%;
+    height: 28%;
+    /* background-color: #6097e9; */
+
 }
 
+.khusus-gambar {
+    width: 100%;
+    height: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
 
+}
+
+.gambar-baner {
+    background: url('../img/Sdn1watukebo.png');
+    background-size: cover;
+
+    width: 75%;
+    height: 80%;
+    position: relative;
+    top: 19%;
+    z-index: 0;
+
+}
+
+.judul-baner {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -20px;
+
+}
+
+#info {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+
+}
+
+.garis {
+    margin-top: -8%;
+}
+
+.garis-info {
+    border-top: 2px solid #222 !important;
+    margin-top: -2% !important;
 }
