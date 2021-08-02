@@ -15,3 +15,7 @@ cencelBtn.onclick = () => {
     menuBtn.classList.remove("active");
     body.classList.remove("disabledScroll");
 }
+
+document.querySelector(".home-btn-card").addEventListener("click", () => {
+    console.log("Test");
+})
