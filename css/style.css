@@ -6,8 +6,8 @@
     box-sizing: inherit;
 }
 
-html{
-    font-family: 'Poppins', sans-serif;
+body{
+    font-family: 'Poppins', sans-serif!important;
 }
 
 /* Navigation Bar */
