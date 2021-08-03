@@ -303,6 +303,10 @@ hr{
 
     /* Responsive Navigation Bar */
 
+    ._navbar{
+        position: fixed;
+    }
+
     body.disabledScroll{
         overflow: hidden;
     }
