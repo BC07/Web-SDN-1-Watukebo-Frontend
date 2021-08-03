@@ -182,6 +182,28 @@ body{
     width: 100%;
 }
 
+.bg-home-image2{
+    background: url('../img/vector2.png');
+    background-size: 30rem;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
+    left: -15px;
+    height: 100vh;
+    width: 100%;
+}
+
+.bg-home-image3{
+    background: url('../img/venctor3.png');
+    background-size: 15rem;
+    background-repeat: no-repeat;
+    position: relative;
+    bottom: 600px;
+    left: 390px;
+    height: 100vh;
+    width: 100%;
+}
+
 .img-home{
     width: 50%;
     position: relative;
