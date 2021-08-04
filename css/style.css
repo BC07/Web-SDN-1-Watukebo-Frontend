@@ -132,6 +132,10 @@ footer a:hover{
     color: rgb(38, 134, 110);
 }
 
+.socialMedia section i {
+    cursor:pointer;
+}
+
 /* End Footer */
 
 /* Tentang Kami */
@@ -186,21 +190,28 @@ footer a:hover{
     width: 50px;
 }
 
-.nav-pills{
+._nav-pills{
     margin-top: 100px;
     justify-content: center;
 }
 
-.nav-link {
+._nav-link {
+    padding: 5px 15px;
     margin-left: 20px;
 }
 
-.nav-link:hover{
+._nav-item a {
+    text-decoration: none;
+    color: rgb(90, 90, 90);
+    font-size: 20px;
+}
+
+._nav-link:hover{
     background-color: #e4e4e4 !important;
     border-radius: 100px !important;
 }
 
-.nav-pills .active{
+._nav-pills .active{
     transition: 0.5s;
     background-color: #41b497 !important;
     color: white !important;
