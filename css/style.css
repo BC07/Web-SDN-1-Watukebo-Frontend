@@ -344,6 +344,32 @@ footer a:hover {
     margin-top: 50px;
 }
 
+#Home{
+    height: 1050px;
+}
+
+#visi{
+    height: 570px;
+}
+
+.visiContainer{
+    padding: 0% 50% 0% 5%;
+}
+
+.misiContainer{
+    text-align: right;
+    padding: 0% 5% 0% 50%;
+}
+
+#kenapa-harus-watukebo{
+    height: 100px;
+    text-align: center;
+}
+
+#kenapa-harus-watukebo div p{
+    line-height: 3rem;
+}
+
 /* PROGRAM */
 
 .programbox {
