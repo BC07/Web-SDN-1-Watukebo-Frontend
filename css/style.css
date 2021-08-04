@@ -102,6 +102,34 @@ body{
     display: none;
 }
 
+/* Footer */
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: white;
+}
+
+.logoFooter{
+    width: 60%;
+}
+
+footer h6 {
+    color: black;
+}
+
+footer a {
+    text-decoration: none;
+    color: gray;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(38, 134, 110);
+}
+
+/* End Footer */
+
 /* Tentang Kami */
 
 .header-img img{
@@ -169,6 +197,22 @@ body{
     display: flex;
     align-items: center;
 }
+
+.items {
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 100px
+}
+
+.slick-slide {
+    margin: 10px
+}
+
+.slick-slide img {
+    width: 100%;
+    border: 0px solid #fff
+}
+
 /* End Tentang Kami */
 
 /* Home */
@@ -397,6 +441,10 @@ hr{
     /*  */
 
     /* Body */
+    .header-img {
+        margin-top: 100px;
+    }
+
     .header-img img{
         width: 80%;
     }
@@ -441,6 +489,14 @@ hr{
 
     
     /* End Tentang Kami */
+
+    /* Footer */
+
+    .logoFooter{
+        width: 30%;
+    }
+
+    /* End Footer */
 }
 
 /* Mobile Version */
