@@ -500,9 +500,9 @@ hr{
         text-align: center;
     }
     
-    #gambarKelas img{
-        width: 70%;
-        margin-bottom: 20px;
+    .gambarKelas{
+        min-width: 250px;
+        margin-bottom: 40px;
     }
     
     #textKelas {
