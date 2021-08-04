@@ -212,8 +212,8 @@ footer a:hover{
     padding-right: 100px;
 }
 
-#gambarKelas img{
-    width: 85%;
+.gambarKelas{
+    width: 70%;
 }
 
 #textKelas {
@@ -501,7 +501,7 @@ hr{
     }
     
     #gambarKelas img{
-        width: 240px;
+        width: 70%;
         margin-bottom: 20px;
     }
     
