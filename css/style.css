@@ -557,64 +557,19 @@ hr {
     background-color: #EAFFFB;
 }
 
-.container-baner {
-    width: 100%;
-    height: 28%;
-    /* background-color: #6097e9; */
-
-}
-
-.khusus-gambar {
-    width: 100%;
-    height: 80%;
-    /* background-color: aqua; */
-    display: flex;
-    justify-content: center;
-
-}
-
-.gambar-baner {
-    background: url('../img/PIP-09.png');
-    background-size: cover;
-
-    width: 75%;
-    height: 80%;
-    position: relative;
-    top: 19%;
-    z-index: 0;
-
-}
-
-.judul-baner {
-    width: 100%;
-    height: 20%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: -20px;
-
-}
-
-#info {
+.garis {
     font-size: 2rem;
     text-align: center;
-    font-weight: bold;
-    position: absolute;
-
+    font-weight: bold !important;
 }
 
-.garis {
-    margin-top: -8%;
+#title-pro {
+    border-top: 2px solid #222 !important;
+    margin-top: 2% !important;
 }
 
-.garis-info {
-    border-top: 2px solid #222;
-    margin-top: -2%;
+.isi {
+    width: 100%;
+    height: 60%;
+    background-color: #1fab89;
 }
-
-/* Tablet Informasi*/
-@media screen and (max-width:768px) {}
-
-/* Android Informasi*/
-@media screen and (max-width:576px) {}
