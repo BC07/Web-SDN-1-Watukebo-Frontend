@@ -295,12 +295,13 @@ footer a:hover {
     position: relative;
     max-width: 500px;
     padding: 50px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
     overflow: hidden;
     color: #222;
     border-radius: 35px;
     bottom: 180px;
-    left: 55px;
+    left: 4%;
+    background: rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(15px);
 }
 
@@ -353,16 +354,16 @@ footer a:hover {
 }
 
 .visiContainer{
-    padding: 0% 50% 0% 5%;
+    padding: 0% 50% 0% 4%;
 }
 
 .misiContainer{
     text-align: right;
-    padding: 0% 5% 0% 50%;
+    padding: 0% 4% 0% 50%;
 }
 
 #kenapa-harus-watukebo{
-    height: 500px;
+    height: 570px;
     text-align: center;
 }
 #kenapa-harus-watukebo div h1{
@@ -403,6 +404,60 @@ footer a:hover {
 .container-beranda-desc{
     padding: 0px 0px 0px 0px;
 }
+
+#sambutan{
+    height: 1000px;
+    margin: auto 3%;
+}
+
+#sambutan h3{
+    text-align: left;
+    margin-left: 15px;
+}
+
+.flex-sambutan{
+    flex-wrap: unset;
+    margin: 0;
+    height: 470px;
+}
+
+.flex-col-sambutan{
+    flex: auto;
+}
+
+.flex-col-sambutan h1{
+    line-height: 7rem;
+}
+
+.text-align-col{
+    text-align: right;
+}
+
+.text-align-col2{
+    text-align: left;
+}
+
+.text-align-col img{
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+}
+
+.text-align-col2 img{
+    width: 450px;
+    position: relative;
+    top: 40px;
+}
+
+#school-address{
+    height: 570px;
+}
+
+#school-address h1{
+    font-weight: bold;
+    text-align: center;
+}
+
 
 /* PROGRAM */
 
