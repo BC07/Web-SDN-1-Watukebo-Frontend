@@ -364,12 +364,46 @@ footer a:hover {
 }
 
 #kenapa-harus-watukebo{
-    height: 100px;
+    height: 500px;
     text-align: center;
 }
+#kenapa-harus-watukebo div h1{
+    font-weight: bold;
+}
 
-#kenapa-harus-watukebo div p{
+#kenapa-harus-watukebo div .p-kenapa{
     line-height: 3rem;
+    color: #A6A6A6;
+}
+
+.ontainer-fluid2{
+    padding: 7% 15%;
+}
+
+.features-marg{
+    margin: 4rem 11rem;
+}
+
+.vector-image{
+    /* width: 30%; */
+    width: 80px;
+}
+
+#kenapa-harus-watukebo div h4{
+    font-size: 15px;
+    line-height: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#kenapa-harus-watukebo div .p-desk{
+    font-size: 13px;
+    margin-top: 0.5rem;
+    color: #A6A6A6;
+}
+
+.container-beranda-desc{
+    padding: 0px 0px 0px 0px;
 }
 
 /* PROGRAM */
