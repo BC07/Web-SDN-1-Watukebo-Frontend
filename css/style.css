@@ -679,10 +679,15 @@ hr {
 
 
 /* --------- INFORMASI ---------*/
+/* Banner */
 #informasi {
     width: 100%;
-    height: 350vh;
+    height: auto;
     background-color: #EAFFFB;
+}
+
+.judul {
+    width: auto;
 }
 
 .garis {
@@ -697,7 +702,116 @@ hr {
 }
 
 .isi {
-    width: 100%;
+    width: auto;
     height: 60%;
     background-color: #1fab89;
+}
+
+/* INFORMASI PENDAFTARAN */
+
+
+.wrapper-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    justify-content: center;
+
+    --clr-primary: #651fff;
+    --clr-gray: #37474f;
+    --clr-gray-light: #b0bec5;
+
+    margin: 5% 8%;
+}
+
+
+
+.tutorial {
+    overflow: hidden;
+    box-shadow: 0px 2px 8px 0px var(--clr-gray-light);
+    background-color: white;
+    text-align: center;
+    border-radius: 1rem;
+    position: relative;
+    margin: 1rem;
+
+    padding: 0;
+    margin: 10px 10px;
+
+}
+
+
+.banner-img1 {
+    position: absolute;
+    background-image: url(../img/web1.png);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img2 {
+    position: absolute;
+    background-image: url(../img/web2.png);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img3 {
+    position: absolute;
+    background-image: url(../img/web3.png);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img4 {
+    position: absolute;
+    background-image: url(../img/web4.png);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img5 {
+    position: absolute;
+    background-image: url(../img/web5.png);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-img6 {
+    position: absolute;
+    background-image: url(../img/web6.png);
+    height: 10rem;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profile-img {
+    width: 8rem;
+    clip-path: circle(60px at center);
+    margin-top: 4.5rem;
+}
+
+
+.name {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.description {
+    margin: 1rem 2rem;
+    font-size: 0.9rem;
 }
