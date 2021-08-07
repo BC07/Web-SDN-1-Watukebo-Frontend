@@ -133,7 +133,7 @@ footer a:hover {
 }
 
 .socialMedia section i {
-    cursor:pointer;
+    cursor: pointer;
 }
 
 /* End Footer */
@@ -188,9 +188,9 @@ footer a:hover {
     transition: 0.5s;
     background-color: #41b497;
     width: 50px;
-} 
+}
 
-._nav-pills{
+._nav-pills {
     margin-top: 100px;
     justify-content: center;
 }
@@ -206,7 +206,7 @@ footer a:hover {
     font-size: 20px;
 }
 
-._nav-link:hover{
+._nav-link:hover {
     background-color: #e4e4e4 !important;
     border-radius: 100px !important;
 }
@@ -223,7 +223,7 @@ footer a:hover {
     padding-right: 100px;
 }
 
-.gambarKelas{
+.gambarKelas {
     width: 70%;
 }
 
@@ -292,7 +292,7 @@ footer a:hover {
 /* Home Card */
 
 .home-card {
-    background-color:  rgba(0, 0, 0, 0.05);
+    background-color: rgba(0, 0, 0, 0.05);
     position: relative;
     max-width: 500px;
     padding: 50px;
@@ -347,133 +347,131 @@ footer a:hover {
     margin-top: 50px;
 }
 
-#Home{
+#Home {
     height: 1050px;
 }
 
-#visi{
+#visi {
     height: 570px;
 }
 
-.visiContainer{
+.visiContainer {
     padding: 0% 50% 0% 4%;
 }
 
-.misiContainer{
+.misiContainer {
     text-align: right;
     padding: 0% 4% 0% 50%;
 }
 
-#kenapa-harus-watukebo{
+#kenapa-harus-watukebo {
     height: 570px;
     text-align: center;
 }
-#kenapa-harus-watukebo div h1{
+
+#kenapa-harus-watukebo div h1 {
     font-weight: bold;
 }
 
-#kenapa-harus-watukebo div .p-kenapa{
+#kenapa-harus-watukebo div .p-kenapa {
     line-height: 3rem;
     color: #A6A6A6;
 }
 
-.ontainer-fluid2{
+.ontainer-fluid2 {
     padding: 7% 15%;
 }
 
-.features-marg{
+.features-marg {
     margin: 4rem 11rem;
 }
 
-.vector-image{
+.vector-image {
     /* width: 30%; */
     width: 80px;
 }
 
-#kenapa-harus-watukebo div h4{
+#kenapa-harus-watukebo div h4 {
     font-size: 15px;
     line-height: 2rem;
     margin-top: 1rem;
     font-weight: bold;
 }
 
-#kenapa-harus-watukebo div .p-desk{
+#kenapa-harus-watukebo div .p-desk {
     font-size: 13px;
     margin-top: 0.5rem;
     color: #A6A6A6;
 }
 
-.container-beranda-desc{
+.container-beranda-desc {
     padding: 0px 0px 0px 0px;
 }
 
-#sambutan{
+#sambutan {
     height: 1000px;
     margin: auto 3%;
 }
 
-#sambutan h3{
+#sambutan h3 {
     text-align: left;
     margin-left: 15px;
 }
 
-.flex-sambutan{
+.flex-sambutan {
     flex-wrap: unset;
     margin: 0;
     height: 470px;
 }
 
-.flex-col-sambutan{
+.flex-col-sambutan {
     flex: auto;
 }
 
-.flex-col-sambutan h1{
+.flex-col-sambutan h1 {
     line-height: 7rem;
 }
 
-.text-align-col{
+.text-align-col {
     text-align: right;
 }
 
-.text-align-col2{
+.text-align-col2 {
     text-align: left;
 }
 
-.text-align-col img{
+.text-align-col img {
     width: 400px;
     position: relative;
     bottom: 30px;
 }
 
-.text-align-col2 img{
+.text-align-col2 img {
     width: 450px;
     position: relative;
     top: 40px;
 }
 
-#school-address{
+#school-address {
     height: 800px;
 }
 
-#school-address h1{
+#school-address h1 {
     font-weight: bold;
     text-align: center;
 }
 
-.leftside, .rightside{
+.leftside,
+.rightside {
     height: 100vh;
     width: 100%;
 }
 
-.leftside{
+.leftside {}
 
-}
+.rightside {}
 
-.rightside{
-
-}
-
-.leftside-item{
+.leftside-item {
     position: relative;
     width: 55%;
     left: 100px;
@@ -484,29 +482,29 @@ footer a:hover {
     border: 4px solid #1FAB89;
 }
 
-.leftside-item h3{
+.leftside-item h3 {
     font-weight: bold;
     line-height: 3.5rem;
 }
 
-.leftside-item hr{
+.leftside-item hr {
     margin-bottom: 2rem;
 }
 
-.leftside-item p{
+.leftside-item p {
     line-height: 2.5rem;
 }
 
-.leftside-item i{
+.leftside-item i {
     line-height: 50px;
 }
 
-.leftside-item i span{
+.leftside-item i span {
     font-family: 'Poppins', sans-serif !important;
     margin-left: 1.5rem;
 }
 
-.rightside-item{
+.rightside-item {
     position: relative;
     top: 100px;
     text-align: center;
@@ -647,7 +645,8 @@ hr {
 
     /* School Adress */
 
-    .leftside, .rightside{
+    .leftside,
+    .rightside {
         height: 100vh;
     }
 
@@ -689,8 +688,8 @@ hr {
         padding-right: 20px;
         text-align: center;
     }
-    
-    .gambarKelas{
+
+    .gambarKelas {
         min-width: 250px;
         margin-bottom: 40px;
     }
@@ -741,7 +740,7 @@ hr {
 #informasi {
     width: 100%;
     height: auto;
-    background-color: #EAFFFB;
+    background-color: #ffffff;
 }
 
 .judul {
@@ -759,11 +758,11 @@ hr {
     margin-top: 2% !important;
 }
 
-.isi {
+/* .isi {
     width: auto;
     height: 60%;
     background-color: #1fab89;
-}
+} */
 
 /* INFORMASI PENDAFTARAN */
 
@@ -872,4 +871,93 @@ hr {
 .description {
     margin: 1rem 2rem;
     font-size: 0.9rem;
+}
+
+/* konten informasi*/
+
+
+#konten-informasi {
+    height: auto;
+    text-align: center;
+    background-color: #EDFBF8;
+}
+
+.konten-kotak {
+    background-color: #fff;
+}
+
+#informasi div h1 {
+    font-weight: bold;
+}
+
+#konten-informasi div .p-why {
+    line-height: 3rem;
+    color: #A6A6A6;
+}
+
+.ontainer-fluid2 {
+    padding: 7% 15%;
+}
+
+.features-marg {
+    margin: 4rem 11rem;
+}
+
+.vector-imagee {
+    /* width: 30%; */
+    width: 80px;
+}
+
+#konten-informasi div h4 {
+    font-size: 15px;
+    line-height: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+#konten-informasi div .p-deskripsi {
+    font-size: 13px;
+    margin-top: 0.5rem;
+    color: #A6A6A6;
+}
+
+.container-informasi-desc {
+    padding: 0px 0px 0px 0px;
+}
+
+#container-data-siswa {
+    height: auto;
+    text-align: center;
+    background-color: white;
+}
+
+.container-siswa {
+    width: auto;
+    height: auto;
+    background: rgba(31, 171, 137, 0.2)
+}
+
+#konten-data-siswa div .why {
+    font-size: 13px;
+    margin-top: 0.5rem;
+    color: #A6A6A6;
+}
+
+.koten-2-kotak {
+    width: 100%;
+    height: 49%;
+    background-color: none;
+    border-style: none;
+}
+
+.judul-last-informasi {
+    width: auto;
+}
+
+.why {
+    color: rgb(148, 148, 148);
+}
+
+.konten-click {
+    width: 100%;
 }
