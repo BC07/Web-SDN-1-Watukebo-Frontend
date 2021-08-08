@@ -3,7 +3,6 @@
 *::after {
     margin: 0;
     padding: 0;
-    box-sizing: inherit;
 }
 
 body {
@@ -271,10 +270,11 @@ footer a:hover {
     margin-top: 23rem;
 }
 
+
 .home-card {
     background-color: rgba(0, 0, 0, 0.05);
     position: relative;
-    width: 70%;
+    width: 80%;
     padding: 50px;
     box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
     overflow: hidden;
@@ -654,23 +654,23 @@ hr {
     }
 
     .card-marg{
-        margin-top: 30px;
+        margin-top: 100px;
     }
 
-    .home-card {
+    /* .home-card {
         background-color:  rgba(0, 0, 0, 0.05);
         position: relative;
-        width: 70%;
+        width: 80%;
         padding: 50px;
         box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
         overflow: hidden;
         color: #222;
         border-radius: 62px;
-        bottom: 11%;
+        bottom: 101%;
         left: 8%;
         background: rgba(0, 0, 0, 0.05);
         backdrop-filter: blur(15px);
-    }
+    } */
     
     .home-card h1 {
         position: relative;
@@ -843,17 +843,20 @@ hr {
 
     /* Beranda */
 
+
     .home-card {
+        text-align: center;
         background-color:  rgba(0, 0, 0, 0.05);
         position: relative;
-        width: 70%;
+        width: 80%;
         padding: 50px;
         box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
         overflow: hidden;
         color: #222;
         border-radius: 62px;
-        bottom: 11%;
-        left: 8%;
+        bottom: 100px;
+        left: 10%;
+        right: 10%;
         background: rgba(0, 0, 0, 0.05);
         backdrop-filter: blur(15px);
     }
@@ -865,13 +868,14 @@ hr {
         text-transform: none;
         z-index: none;
         font-weight: bold;
+        font-size: 28px;
     }
     
     .home-card p {
         position: relative;
         margin: 0;
         padding: 0;
-        font-size: 18px;
+        font-size: 13px;
         z-index: 2;
     }
     
