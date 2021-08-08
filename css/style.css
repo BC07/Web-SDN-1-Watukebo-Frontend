@@ -267,7 +267,7 @@ footer a:hover {
 
 #Home{
     height: 45rem;
-    margin-top: 23rem;
+    margin-top: 25rem;
 }
 
 
@@ -280,8 +280,9 @@ footer a:hover {
     overflow: hidden;
     color: #222;
     border-radius: 62px;
-    bottom: 25%;
-    left: 8%;
+    bottom: 10pc;
+    left: 10%;
+    right: 10%;
     background: rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(15px);
 }
@@ -323,10 +324,6 @@ footer a:hover {
 .contariner-home-card {
     text-align: center;
     margin-top: 50px;
-}
-
-#Home {
-    height: 1050px;
 }
 
 #visi{
@@ -636,15 +633,8 @@ hr {
     }
 
     #Home{
-        /* height: 45rem; */
-        /* margin-top: 20rem; */
-    }
-
-    .bg-home-image {
-        background: url('../img/home-background2.png');
-        background-size: cover;
-        height: 100%;
-        width: 100%;
+        height: 20rem;
+        margin-top: 45rem;
     }
     
     .img-home {
