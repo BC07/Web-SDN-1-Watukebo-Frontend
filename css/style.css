@@ -263,7 +263,7 @@ footer a:hover {
 
 /* Home Card */
 
-#Home{
+#Home {
     height: 45rem;
     margin-top: 25rem;
 }
@@ -325,7 +325,11 @@ footer a:hover {
     margin-top: 50px;
 }
 
-#visi{
+#Home {
+    height: 1050px;
+}
+
+#visi {
     /* height: 570px; */
     margin-bottom: 10rem;
 
@@ -341,7 +345,7 @@ footer a:hover {
 }
 
 
-#kenapa-harus-watukebo{
+#kenapa-harus-watukebo {
     /* height: 570px; */
 
     text-align: center;
@@ -375,7 +379,7 @@ footer a:hover {
 }
 
 
-.features-marg{
+.features-marg {
     margin: 4rem 7rem;
 
 }
@@ -390,7 +394,7 @@ footer a:hover {
 }
 
 
-#sambutan{
+#sambutan {
     /* height: 1000px; */
 
     margin: auto 3%;
@@ -414,7 +418,7 @@ footer a:hover {
 }
 
 
-.text-align-col img{
+.text-align-col img {
     width: 70%;
 
     position: relative;
@@ -422,7 +426,7 @@ footer a:hover {
 }
 
 
-.text-align-col2 img{
+.text-align-col2 img {
     width: 75%;
 
     position: relative;
@@ -430,7 +434,7 @@ footer a:hover {
 }
 
 
-#school-address{
+#school-address {
     /* height: 800px; */
 
 }
@@ -544,128 +548,138 @@ footer a:hover {
     margin: 15px 15px;
 }
 
-.programbox hr{
-    border-top: 2px solid #222!important;
-    margin-top: 5%!important;
+.programbox hr {
+    border-top: 2px solid #222 !important;
+    margin-top: 5% !important;
 }
 
-.ekstra{
-    text-align: center!important;
+.ekstra {
+    text-align: center !important;
 }
 
-.ekstra-item{
+.ekstra-item {
     margin: 2%;
-    width: 30%!important;
+    width: 30% !important;
 }
 
 .stretch-card>.card {
-     width: 100%;
-     min-width: 100%;
-     text-align: center;
-    }
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+}
 
- .flex {
-     -webkit-box-flex: 1;
-     -ms-flex: 1 1 auto;
-     flex: 1 1 auto
- }
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
 
 .wrapperekskul {
-  width: 100%;
-  margin: 50px auto;
-  padding: 20px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
 }
+
 .wrapperekskul .card {
-  background-color: #fff;
-  overflow: hidden;
-  height: calc(100% - 0px);
-  border: none!important;
+    background-color: #fff;
+    overflow: hidden;
+    height: calc(100% - 0px);
+    border: none !important;
 }
+
 .wrapperekskul .card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: 0 center;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 center;
 }
+
 .wrapperekskul .card h3 {
-  padding: 10px 0;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 500;
-  text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
+
 .wrapperekskul .card p {
-  color: #555;
-  font-size: 14px;
+    color: #555;
+    font-size: 14px;
 }
+
 .wrapperekskul .card .card-footer {
-  background: transparent;
-  border: 0;
-  padding: 1rem;
-  padding-bottom: 2rem;
+    background: transparent;
+    border: 0;
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
+
 .wrapperekskul .card .btn {
-  padding: 10px 35px;
+    padding: 10px 35px;
 }
 
 /* owl carousel */
 
-.wrappermenu{
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.menucarousel{
-  max-width: 3200px;
-  margin: auto;
-  padding: 0 30px;
-}
-.menucarousel .card{
-  color: #fff;
-  text-align: center;
-  margin: 20px 5px;
-  line-height: 250px;
-  font-size: 90px;
-  font-weight: 600;
-  border-radius: 5px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  width: 300px;
-  padding: 10px!important;
-  border: #1FAB89 solid 3px;
+.wrappermenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.menucarousel .card h6{
+.menucarousel {
+    max-width: 3200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.menucarousel .card {
+    color: #fff;
+    text-align: center;
+    margin: 20px 5px;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 10px !important;
+    border: #1FAB89 solid 3px;
+}
+
+.menucarousel .card h6 {
     color: #222;
     margin: 8px;
 }
 
-.owl-dots{
-  text-align: center;
-  margin-top: 40px;
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
 }
-.owl-dot{
-  height: 15px;
-  width: 45px;
-  margin: 0 5px;
-  outline: none!important;
-  border-radius: 14px;
-  border: 2px solid #1FAB89!important;
-  box-shadow: 0px 1px #1FAB89;
-  transition: all 0.3s ease;
+
+.owl-dot {
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 14px;
+    border: 2px solid #1FAB89 !important;
+    box-shadow: 0px 1px #1FAB89;
+    transition: all 0.3s ease;
 }
+
 .owl-dot.active,
-.owl-dot:hover{
-  background: #1FAB89!important;
+.owl-dot:hover {
+    background: #1FAB89 !important;
 }
 
-.owl-item{
-    width: max-content!important;
+.owl-item {
+    width: max-content !important;
 }
 
-.titleprogram{
+.titleprogram {
     font-size: 2rem;
     text-align: center;
-    font-weight: bold!important; 
+    font-weight: bold !important;
 }
 
 
@@ -759,21 +773,33 @@ footer a:hover {
         width: 100%;
     }
 
-    #Home{
+    #Home {
+        /* height: 45rem; */
+        /* margin-top: 20rem; */
+    }
+
+    .bg-home-image {
+        background: url('../img/home-background2.png');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    #Home {
         height: 20rem;
         margin-top: 45rem;
     }
-    
+
     .img-home {
         width: 100%;
         position: relative;
         bottom: 50px;
     }
 
-    .card-marg{
+    .card-marg {
         margin-top: 100px;
     }
-    
+
     .home-card h1 {
         position: relative;
         margin: 0 0 13px;
@@ -782,7 +808,7 @@ footer a:hover {
         z-index: none;
         font-weight: bold;
     }
-    
+
     .home-card p {
         position: relative;
         margin: 0;
@@ -790,7 +816,7 @@ footer a:hover {
         font-size: 18px;
         z-index: 2;
     }
-    
+
     .home-btn-card {
         background: #1fab89;
         border: none;
@@ -802,12 +828,12 @@ footer a:hover {
         font-size: 18px;
         font-weight: normal;
     }
-    
+
     .home-btn-card:hover {
         cursor: pointer;
         background-color: #dbdbdb;
     }
-    
+
     .contariner-home-card {
         text-align: center;
         margin-top: 50px;
@@ -815,44 +841,44 @@ footer a:hover {
 
     /* Kenapa Harus Watukebo */
 
-    .features-marg{
+    .features-marg {
         margin: 0rem 7rem;
     }
 
-    .features-marg div{
+    .features-marg div {
         margin-top: 2rem;
     }
 
-    .text-align-col{
+    .text-align-col {
         text-align: center;
     }
-    
-    .text-align-col2{
+
+    .text-align-col2 {
         text-align: center;
     }
-    
-    .text-align-col img{
+
+    .text-align-col img {
         width: 70%;
         position: relative;
         bottom: 30px;
     }
-    
-    .text-align-col2 img{
+
+    .text-align-col2 img {
         width: 75%;
         position: relative;
         top: 40px;
     }
 
-    #sambutan h3{
+    #sambutan h3 {
         text-align: center;
     }
 
-    .flex-col-sambutan h1{
+    .flex-col-sambutan h1 {
         line-height: 7rem;
         text-align: center;
     }
-    
-    .flex-col-sambutan p{
+
+    .flex-col-sambutan p {
         text-align: center;
     }
 
@@ -986,8 +1012,8 @@ footer a:hover {
         border-radius: 0px 0px 17px 17px !important;
     }
 
-    .owl-carousel{
-        width: 90%; 
+    .owl-carousel {
+        width: 90%;
     }
 
     /* Beranda */
@@ -995,7 +1021,7 @@ footer a:hover {
 
     .home-card {
         text-align: center;
-        background-color:  rgba(0, 0, 0, 0.05);
+        background-color: rgba(0, 0, 0, 0.05);
         position: relative;
         width: 80%;
         padding: 50px;
@@ -1010,7 +1036,7 @@ footer a:hover {
         background: rgba(0, 0, 0, 0.05);
         backdrop-filter: blur(15px);
     }
-    
+
     .home-card h1 {
         position: relative;
         margin: 0 0 13px;
@@ -1020,7 +1046,7 @@ footer a:hover {
         font-weight: bold;
         font-size: 28px;
     }
-    
+
     .home-card p {
         position: relative;
         margin: 0;
@@ -1028,7 +1054,7 @@ footer a:hover {
         font-size: 13px;
         z-index: 2;
     }
-    
+
     .home-btn-card {
         background: #1fab89;
         border: none;
@@ -1040,12 +1066,12 @@ footer a:hover {
         font-size: 18px;
         font-weight: normal;
     }
-    
+
     .home-btn-card:hover {
         cursor: pointer;
         background-color: #dbdbdb;
     }
-    
+
     .contariner-home-card {
         text-align: center;
         margin-top: 50px;
@@ -1349,16 +1375,25 @@ footer a:hover {
 
 
 #konten-informasi {
-    height: auto;
+
     text-align: center;
+    margin-bottom: 10rem;
     background-color: #EDFBF8;
 }
 
-.konten-kotak {
-    background-color: #fff;
+@media screen and (max-width:1200px) {
+    #konten-informasi {
+        height: 50%;
+    }
 }
 
-#informasi div h1 {
+.konten-kotak {
+    height: auto;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+#konten-informasi div h1 {
     font-weight: bold;
 }
 
@@ -1372,7 +1407,7 @@ footer a:hover {
 }
 
 .fiture-margin {
-    margin: 4rem 11rem;
+    margin: 4rem 7rem;
 }
 
 .vector {
@@ -1398,20 +1433,21 @@ footer a:hover {
 }
 
 #container-data-siswa {
-    height: auto;
+    height: 100%;
     text-align: center;
     background-color: white;
 }
 
 .container-siswa {
     width: auto;
-    height: auto;
+
+    margin-top: -13%;
     background: rgba(31, 171, 137, 0.2)
 }
 
 #konten-data-siswa div .why {
     font-size: 13px;
-    margin-top: 0.5rem;
+    line-height: 3rem;
     color: #A6A6A6;
 }
 
@@ -1426,10 +1462,57 @@ footer a:hover {
     width: auto;
 }
 
+.besar {
+    font-weight: bold;
+}
+
 .why {
     color: rgb(148, 148, 148);
 }
 
 .konten-click {
     width: 100%;
+}
+
+.garis2 {
+    font-size: 35px;
+}
+
+.space-down {
+    width: auto;
+    height: 20px;
+    background-color: #EDFBF8;
+}
+
+/* mobile information */
+@media screen and (max-width:768px) {
+
+    #gambar {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    #konten-informasi {
+        height: 30%;
+    }
+
+    .garis {
+        font-size: 25px;
+    }
+
+    .garis2 {
+        font-size: 25px;
+    }
+
+    .name {
+        font-size: 22px;
+    }
+
+    .besar {
+        font-size: 25px;
+    }
+
+    #konten-informasi {
+        margin-bottom: 6rem;
+    }
 }
