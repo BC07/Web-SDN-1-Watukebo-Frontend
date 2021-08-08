@@ -252,61 +252,39 @@ footer a:hover {
 /* Home */
 
 .bg-home-image {
-    background: url('../img/OnPaste.20210801-192550.png');
+    background: url('../img/home-background2.png');
     background-size: cover;
-    position: relative;
-    top: 380px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
-}
-
-.bg-home-image2 {
-    background: url('../img/vector2.png');
-    background-size: 30rem;
-    background-repeat: no-repeat;
-    position: relative;
-    top: 100px;
-    left: -15px;
-    height: 100vh;
-    width: 100%;
-}
-
-.bg-home-image3 {
-    background: url('../img/venctor3.png');
-    background-size: 15rem;
-    background-repeat: no-repeat;
-    position: relative;
-    bottom: 600px;
-    left: 390px;
-    height: 100vh;
-    width: 40%;
 }
 
 .img-home {
-    width: 50%;
+    width: 100%;
     position: relative;
-    left: 50%;
-    bottom: 718px;
+    bottom: 300px;
 }
 
 /* Home Card */
 
+#Home{
+    height: 45rem;
+    margin-top: 23rem;
+}
+
 .home-card {
     background-color: rgba(0, 0, 0, 0.05);
     position: relative;
-    max-width: 500px;
+    width: 70%;
     padding: 50px;
     box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
     overflow: hidden;
     color: #222;
     border-radius: 62px;
-    bottom: 180px;
-    left: 4%;
+    bottom: 25%;
+    left: 8%;
     background: rgba(0, 0, 0, 0.05);
     backdrop-filter: blur(15px);
 }
-
-
 
 .home-card h1 {
     position: relative;
@@ -351,8 +329,10 @@ footer a:hover {
     height: 1050px;
 }
 
-#visi {
-    height: 570px;
+#visi{
+    /* height: 570px; */
+    margin-bottom: 10rem;
+
 }
 
 .visiContainer {
@@ -364,9 +344,12 @@ footer a:hover {
     padding: 0% 4% 0% 50%;
 }
 
-#kenapa-harus-watukebo {
-    height: 570px;
+
+#kenapa-harus-watukebo{
+    /* height: 570px; */
+
     text-align: center;
+    margin-bottom: 10rem;
 }
 
 #kenapa-harus-watukebo div h1 {
@@ -382,8 +365,10 @@ footer a:hover {
     padding: 7% 15%;
 }
 
-.features-marg {
-    margin: 4rem 11rem;
+
+.features-marg{
+    margin: 4rem 7rem;
+
 }
 
 .vector-image {
@@ -408,24 +393,16 @@ footer a:hover {
     padding: 0px 0px 0px 0px;
 }
 
-#sambutan {
-    height: 1000px;
+
+#sambutan{
+    /* height: 1000px; */
+
     margin: auto 3%;
+    margin-bottom: 10rem;
 }
 
 #sambutan h3 {
     text-align: left;
-    margin-left: 15px;
-}
-
-.flex-sambutan {
-    flex-wrap: unset;
-    margin: 0;
-    height: 470px;
-}
-
-.flex-col-sambutan {
-    flex: auto;
 }
 
 .flex-col-sambutan h1 {
@@ -440,20 +417,26 @@ footer a:hover {
     text-align: left;
 }
 
-.text-align-col img {
-    width: 400px;
+
+.text-align-col img{
+    width: 70%;
+
     position: relative;
     bottom: 30px;
 }
 
-.text-align-col2 img {
-    width: 450px;
+
+.text-align-col2 img{
+    width: 75%;
+
     position: relative;
     top: 40px;
 }
 
-#school-address {
-    height: 800px;
+
+#school-address{
+    /* height: 800px; */
+
 }
 
 #school-address h1 {
@@ -570,7 +553,7 @@ hr {
 }
 
 /* Tablet and Mobile Version */
-@media screen and (max-width:868px) {
+@media screen and (max-width:1024px) {
 
     /* Responsive Navigation Bar */
 
@@ -641,6 +624,134 @@ hr {
         font-style: normal;
         line-height: 20px;
         margin-left: 13px;
+    }
+
+    /* Beranda */
+
+    .bg-home-image {
+        background: url('../img/home-background2.png');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+
+    #Home{
+        /* height: 45rem; */
+        /* margin-top: 20rem; */
+    }
+
+    .bg-home-image {
+        background: url('../img/home-background2.png');
+        background-size: cover;
+        height: 100%;
+        width: 100%;
+    }
+    
+    .img-home {
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .card-marg{
+        margin-top: 30px;
+    }
+
+    .home-card {
+        background-color:  rgba(0, 0, 0, 0.05);
+        position: relative;
+        width: 70%;
+        padding: 50px;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+        overflow: hidden;
+        color: #222;
+        border-radius: 62px;
+        bottom: 11%;
+        left: 8%;
+        background: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(15px);
+    }
+    
+    .home-card h1 {
+        position: relative;
+        margin: 0 0 13px;
+        padding: 0;
+        text-transform: none;
+        z-index: none;
+        font-weight: bold;
+    }
+    
+    .home-card p {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        z-index: 2;
+    }
+    
+    .home-btn-card {
+        background: #1fab89;
+        border: none;
+        border-radius: 50px;
+        padding: 17px 65px;
+        color: #ffffff;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .home-btn-card:hover {
+        cursor: pointer;
+        background-color: #dbdbdb;
+    }
+    
+    .contariner-home-card {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    /* Kenapa Harus Watukebo */
+
+    .features-marg{
+        margin: 0rem 7rem;
+    }
+
+    .features-marg div{
+        margin-top: 2rem;
+    }
+
+    .text-align-col{
+        text-align: center;
+    }
+    
+    .text-align-col2{
+        text-align: center;
+    }
+    
+    .text-align-col img{
+        width: 70%;
+        position: relative;
+        bottom: 30px;
+    }
+    
+    .text-align-col2 img{
+        width: 75%;
+        position: relative;
+        top: 40px;
+    }
+
+    #sambutan h3{
+        text-align: center;
+    }
+
+    .flex-col-sambutan h1{
+        line-height: 7rem;
+        text-align: center;
+    }
+    
+    .flex-col-sambutan p{
+        text-align: center;
     }
 
     /* School Adress */
@@ -730,7 +841,61 @@ hr {
         border-radius: 0px 0px 17px 17px !important;
     }
 
+    /* Beranda */
 
+    .home-card {
+        background-color:  rgba(0, 0, 0, 0.05);
+        position: relative;
+        width: 70%;
+        padding: 50px;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, .5);
+        overflow: hidden;
+        color: #222;
+        border-radius: 62px;
+        bottom: 11%;
+        left: 8%;
+        background: rgba(0, 0, 0, 0.05);
+        backdrop-filter: blur(15px);
+    }
+    
+    .home-card h1 {
+        position: relative;
+        margin: 0 0 13px;
+        padding: 0;
+        text-transform: none;
+        z-index: none;
+        font-weight: bold;
+    }
+    
+    .home-card p {
+        position: relative;
+        margin: 0;
+        padding: 0;
+        font-size: 18px;
+        z-index: 2;
+    }
+    
+    .home-btn-card {
+        background: #1fab89;
+        border: none;
+        border-radius: 50px;
+        padding: 17px 65px;
+        color: #ffffff;
+        display: inline-block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: normal;
+    }
+    
+    .home-btn-card:hover {
+        cursor: pointer;
+        background-color: #dbdbdb;
+    }
+    
+    .contariner-home-card {
+        text-align: center;
+        margin-top: 50px;
+    }
 }
 
 
