@@ -326,15 +326,11 @@ footer a:hover {
     margin-top: 50px;
 }
 
-<<<<<<< HEAD
 #Home {
     height: 1050px;
 }
 
 #visi {
-=======
-#visi{
->>>>>>> 7bc999a9a2bc736e5f3d227f8067a15a981db141
     /* height: 570px; */
     margin-bottom: 10rem;
 
@@ -546,128 +542,138 @@ footer a:hover {
     margin: 15px 15px;
 }
 
-.programbox hr{
-    border-top: 2px solid #222!important;
-    margin-top: 5%!important;
+.programbox hr {
+    border-top: 2px solid #222 !important;
+    margin-top: 5% !important;
 }
 
-.ekstra{
-    text-align: center!important;
+.ekstra {
+    text-align: center !important;
 }
 
-.ekstra-item{
+.ekstra-item {
     margin: 2%;
-    width: 30%!important;
+    width: 30% !important;
 }
 
 .stretch-card>.card {
-     width: 100%;
-     min-width: 100%;
-     text-align: center;
-    }
+    width: 100%;
+    min-width: 100%;
+    text-align: center;
+}
 
- .flex {
-     -webkit-box-flex: 1;
-     -ms-flex: 1 1 auto;
-     flex: 1 1 auto
- }
+.flex {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto
+}
 
 .wrapperekskul {
-  width: 100%;
-  margin: 50px auto;
-  padding: 20px;
+    width: 100%;
+    margin: 50px auto;
+    padding: 20px;
 }
+
 .wrapperekskul .card {
-  background-color: #fff;
-  overflow: hidden;
-  height: calc(100% - 0px);
-  border: none!important;
+    background-color: #fff;
+    overflow: hidden;
+    height: calc(100% - 0px);
+    border: none !important;
 }
+
 .wrapperekskul .card img {
-  width: 100%;
-  height: 300px;
-  object-fit: cover;
-  object-position: 0 center;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    object-position: 0 center;
 }
+
 .wrapperekskul .card h3 {
-  padding: 10px 0;
-  text-align: center;
-  font-size: 25px;
-  font-weight: 500;
-  text-transform: uppercase;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
 }
+
 .wrapperekskul .card p {
-  color: #555;
-  font-size: 14px;
+    color: #555;
+    font-size: 14px;
 }
+
 .wrapperekskul .card .card-footer {
-  background: transparent;
-  border: 0;
-  padding: 1rem;
-  padding-bottom: 2rem;
+    background: transparent;
+    border: 0;
+    padding: 1rem;
+    padding-bottom: 2rem;
 }
+
 .wrapperekskul .card .btn {
-  padding: 10px 35px;
+    padding: 10px 35px;
 }
 
 /* owl carousel */
 
-.wrappermenu{
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
-.menucarousel{
-  max-width: 3200px;
-  margin: auto;
-  padding: 0 30px;
-}
-.menucarousel .card{
-  color: #fff;
-  text-align: center;
-  margin: 20px 5px;
-  line-height: 250px;
-  font-size: 90px;
-  font-weight: 600;
-  border-radius: 5px;
-  box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
-  width: 300px;
-  padding: 10px!important;
-  border: #1FAB89 solid 3px;
+.wrappermenu {
+    width: 100%;
+    display: flex;
+    align-items: center;
 }
 
-.menucarousel .card h6{
+.menucarousel {
+    max-width: 3200px;
+    margin: auto;
+    padding: 0 30px;
+}
+
+.menucarousel .card {
+    color: #fff;
+    text-align: center;
+    margin: 20px 5px;
+    line-height: 250px;
+    font-size: 90px;
+    font-weight: 600;
+    border-radius: 5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 10px !important;
+    border: #1FAB89 solid 3px;
+}
+
+.menucarousel .card h6 {
     color: #222;
     margin: 8px;
 }
 
-.owl-dots{
-  text-align: center;
-  margin-top: 40px;
+.owl-dots {
+    text-align: center;
+    margin-top: 40px;
 }
-.owl-dot{
-  height: 15px;
-  width: 45px;
-  margin: 0 5px;
-  outline: none!important;
-  border-radius: 14px;
-  border: 2px solid #1FAB89!important;
-  box-shadow: 0px 1px #1FAB89;
-  transition: all 0.3s ease;
+
+.owl-dot {
+    height: 15px;
+    width: 45px;
+    margin: 0 5px;
+    outline: none !important;
+    border-radius: 14px;
+    border: 2px solid #1FAB89 !important;
+    box-shadow: 0px 1px #1FAB89;
+    transition: all 0.3s ease;
 }
+
 .owl-dot.active,
-.owl-dot:hover{
-  background: #1FAB89!important;
+.owl-dot:hover {
+    background: #1FAB89 !important;
 }
 
-.owl-item{
-    width: max-content!important;
+.owl-item {
+    width: max-content !important;
 }
 
-.titleprogram{
+.titleprogram {
     font-size: 2rem;
     text-align: center;
-    font-weight: bold!important; 
+    font-weight: bold !important;
 }
 
 
@@ -761,7 +767,6 @@ footer a:hover {
         width: 100%;
     }
 
-<<<<<<< HEAD
     #Home {
         /* height: 45rem; */
         /* margin-top: 20rem; */
@@ -772,11 +777,11 @@ footer a:hover {
         background-size: cover;
         height: 100%;
         width: 100%;
-=======
-    #Home{
+    }
+
+    #Home {
         height: 20rem;
         margin-top: 45rem;
->>>>>>> 7bc999a9a2bc736e5f3d227f8067a15a981db141
     }
 
     .img-home {
@@ -973,8 +978,8 @@ footer a:hover {
         border-radius: 0px 0px 17px 17px !important;
     }
 
-    .owl-carousel{
-        width: 90%; 
+    .owl-carousel {
+        width: 90%;
     }
 
     /* Beranda */
