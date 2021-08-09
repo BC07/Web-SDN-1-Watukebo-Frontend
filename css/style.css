@@ -244,6 +244,8 @@ footer a:hover {
     border: 0px solid #fff
 }
 
+
+
 /* End Tentang Kami */
 
 /* Home */
@@ -951,7 +953,7 @@ footer a:hover {
 
     /* Tentang Kami */
 
-    .carousel-inner {
+    #carouselTentang {
         height: 200px;
         margin-left: auto;
         margin-right: auto;
