@@ -280,12 +280,11 @@ footer a:hover {
     overflow: hidden;
     color: #222;
     border-radius: 62px;
-    bottom: 10pc;
-    /* left: 10%;
-    right: 10%; */
+    bottom: 160px;
     margin: 0px auto;
     background: rgba(0, 0, 0, 0.05);
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px) !important;
+    -webkit-backdrop-filter: blur(15px);
 }
 
 .home-card h1 {
@@ -1041,11 +1040,10 @@ footer a:hover {
         color: #222;
         border-radius: 62px;
         bottom: 100px;
-        /* left: 10%;
-        right: 10%; */
         margin: 0 auto;
         background: rgba(0, 0, 0, 0.05);
-        backdrop-filter: blur(15px);
+        backdrop-filter: blur(15px) !important;
+        -webkit-backdrop-filter: blur(15px);
     }
 
     .home-card h1 {
