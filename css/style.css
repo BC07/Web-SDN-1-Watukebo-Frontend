@@ -151,7 +151,7 @@ footer a:hover {
     text-align: center;
 }
 
-.carousel-inner {
+#carouselTentang{
     z-index: -1;
     margin-top: 100px;
     /* width: 70%; */
@@ -243,6 +243,8 @@ footer a:hover {
     width: 100%;
     border: 0px solid #fff
 }
+
+
 
 /* End Tentang Kami */
 
@@ -951,7 +953,7 @@ footer a:hover {
 
     /* Tentang Kami */
 
-    .carousel-inner {
+    #carouselTentang {
         height: 200px;
         margin-left: auto;
         margin-right: auto;
